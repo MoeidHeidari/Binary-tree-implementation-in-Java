@@ -3,10 +3,7 @@ public class BinaryTree
 {
     private Node root;
 
-    public BinaryTree()
-    {
-        this.setRoot(null);
-    }
+
 
     public BinaryTree(Node root)
     {
@@ -19,6 +16,11 @@ public class BinaryTree
 
     public void setRoot(Node root) {
         this.root = root;
+    }
+
+    public BinaryTree()
+    {
+        this.setRoot(null);
     }
 
     public void insert(Node newNode)

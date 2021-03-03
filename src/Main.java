@@ -18,7 +18,7 @@ public class Main
         bnt.insert(n6);
         for(Node item: bnt.bfsTraverse())
         {
-            System.out.print(item.getValue());
+            System.out.print(item.getValue()+"---");
         }
 
 
